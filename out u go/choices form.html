@@ -1,0 +1,27 @@
+<h2>Signup Form</h2>
+    <!--Step 1:Adding HTML-->
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <label><b>Name</b></label>
+            <input type="text" placeholder="Enter Your name" name="email" required>
+ 
+            <label><b>Group</b></label>
+            <select name="group" id="group">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+            <label><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="checkbox" checked="checked"> Remember me
+            <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+ 
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
